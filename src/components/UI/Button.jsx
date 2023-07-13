@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = (props) => {
   return (
-    <button onClick={props.onClick}>{props.title}</button>
+    <button style={props.color} onClick={props.onClick}>{props.title}</button>
   )
 }
 
